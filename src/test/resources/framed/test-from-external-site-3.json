@@ -1,0 +1,19 @@
+{
+  "@context": {"ex": "http://example.org/"},
+  "@frame": {
+    "@context": {
+      "ex": "http://example.org/",
+      "excludes": {"@reverse": "ex:includes"}
+    },
+    "@type": "ex:Type1",
+    "excludes": {}
+  },
+  "@graph": [{
+    "@id": "ex:Sub1",
+    "@type": "ex:Type1"
+  }, {
+    "@id": "ex:Sub2",
+    "@type": "ex:Type2",
+    "ex:includes": {"@id": "ex:Sub1"}
+  }]
+}

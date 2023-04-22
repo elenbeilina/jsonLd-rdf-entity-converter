@@ -1,0 +1,38 @@
+{
+	"@context" : {
+		"@base" 		: "http://test.net/",
+		"col" 			: "https://test.entity.com/",
+		"content" 		: {"@reverse" : "col:assets_in_domain_relation"},
+		"type" 			: "@type",
+		"id" 			: "@id",
+		"relations" 	: "@nest",
+		"target" 		: "col:to",
+		"object" 		: "col:relates",
+		"results" 		: "@nest",
+		"data" 			: "@nest",
+
+		"displayName" 	: {
+			"@id" 			: "col:displayname",
+			"@type" 		: "xsd:string"
+		}
+	},
+	"results": {
+		"connectorType": "Outbound",
+		"processingDirection": "INBOUND",
+		"processingMode": "FULL",
+		"lxWorkspace": null,
+		"lxVersion": "1.0.0",
+		"description": "The resulting LDIF of the outbound run 66f4212d-3457-4d4e-ac27-62daa34ea8f3",
+		"content": [
+			{
+				"type": "BusinessCapability",
+				"id": "0fe6b23f-8e91-4b81-b452-12289474d6ee",
+				"data": {
+					"externalId": "",
+					"displayName": "1 - Consumer & Customer Experience"
+				}
+			}
+		]
+	},
+	"resultsUrl": {}
+}

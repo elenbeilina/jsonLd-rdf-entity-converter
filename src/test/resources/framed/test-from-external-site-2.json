@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "http://example.org/",
+    "child": {"@type": "@id"}
+  },
+  "@frame": {
+    "@context": {
+      "@vocab": "http://example.org/",
+      "child": {"@type": "@id"}
+    },
+    "@type": "Person",
+    "child": {
+      "@embed": "@always",
+      "@omitDefault": true
+    }
+  },
+  "@graph": [{
+    "@id": "http://example.org#John",
+    "@type": "Person",
+    "name": "John",
+    "child": "http://example.org#Jane"
+  }, {
+    "@id": "http://example.org#Jane",
+    "@type": "Person",
+    "name": "Jane"
+  }]
+}

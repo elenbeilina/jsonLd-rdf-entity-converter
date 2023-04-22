@@ -1,0 +1,62 @@
+[
+  {
+    "asset": "http://test/00000-000-00021",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031004",
+    "attributetype": "https://test.entity.com/displayname",
+    "attribute": "Global Comms Launch"
+  },
+  {
+    "asset": "http://test/00000-000-00001",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031003",
+    "attributetype": "https://test.entity.com/displayname",
+    "attribute": "ERD Campain"
+  },
+  {
+    "asset": "http://test/00000-000-00211",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031005",
+    "attributetype": "https://test.entity.com/00000000-0000-0000-0000-000000003114",
+    "attribute": "What is the Global Comms Launch Date?"
+  },
+  {
+    "asset": "http://test/00000-000-00011",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031004",
+    "attributetype": "https://test.entity.com/00000000-0000-0000-0000-000000003114",
+    "attribute": "Detailed Description of Age Group"
+  },
+  {
+    "asset": "http://test/00000-000-00021",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031004",
+    "attributetype": "https://test.entity.com/00000000-0000-0000-0000-000000003114",
+    "attribute": "What is Global Comms Launch?"
+  },
+  {
+    "asset": "http://test/00000-000-00212",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031005",
+    "attributetype": "https://test.entity.com/00000000-0000-0000-0000-000000003114",
+    "attribute": "What is an Age Group CD?"
+  },
+  {
+    "asset": "http://test/00000-000-00011",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031004",
+    "attributetype": "https://test.entity.com/displayname",
+    "attribute": "Age Group"
+  },
+  {
+    "asset": "http://test/00000-000-00212",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031005",
+    "attributetype": "https://test.entity.com/displayname",
+    "attribute": "Age Group CD"
+  },
+  {
+    "asset": "http://test/00000-000-00211",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031005",
+    "attributetype": "https://test.entity.com/displayname",
+    "attribute": "Global Comms Launch Date"
+  },
+  {
+    "asset": "http://test/00000-000-00001",
+    "assettype": "https://test.entity.com/00000000-0000-0000-0000-000000031003",
+    "attributetype": "https://test.entity.com/00000000-0000-0000-0000-000000003114",
+    "attribute": "Demo Model Description"
+  }
+]

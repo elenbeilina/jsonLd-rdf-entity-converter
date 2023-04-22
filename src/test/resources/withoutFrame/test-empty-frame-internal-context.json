@@ -1,0 +1,228 @@
+{
+  "@context": {
+    "@base": "http://test.de/",
+    "col": "https://test.entity.com/",
+    "uuid": "@id",
+    "models": "col:ignore",
+    "model": {
+      "@id": "col:assets_in_domain_relation",
+      "@type": "@id"
+    },
+    "domains": {
+      "@reverse": "col:assets_in_domain_relation"
+    },
+    "entities": {
+      "@reverse": "col:assets_in_domain_relation"
+    },
+    "diagrams": {
+      "@id": "col:ignore",
+      "@context": {
+        "entities": {
+          "@reverse": "col:00000000-0000-0000-0000-000000007046"
+        }
+      }
+    },
+    "name": {
+      "@id": "col:displayname",
+      "@type": "xsd:string"
+    },
+    "subject area": {
+      "@id": "col:485aec59-f560-4388-be53-4e5cd01bfc4f",
+      "@type": "xsd:string"
+    },
+    "datatype": {
+      "@id": "col:f874cab5-abe7-4377-996a-d07cb4eba0e2",
+      "@type": "xsd:string"
+    },
+    "foreign key attribute for attribute - uuid": {
+      "@id": "col:0ad1e29c-e607-4731-8e43-65758de81306",
+      "@type": "@vocab"
+    },
+    "model name": "@id",
+    "type": "@type",
+    "Model": "col:86485fc1-4962-4764-8113-474d4612bda8",
+    "Domain": "col:ignore",
+    "Diagram": "col:00000000-0000-0000-0000-000000031003",
+    "Entity": "col:00000000-0000-0000-0000-000000031004",
+    "Attribute": "col:00000000-0000-0000-0000-000000031005"
+  },
+  "@frame": "",
+  "models": [
+    {
+      "type": "Model",
+      "uuid": "bd953f8d-297a-4370-6d2a-ba3effa4651d",
+      "name": "Main",
+      "model type": "Non BI Model",
+      "entities": [
+        {
+          "type": "Entity",
+          "uuid": "08c628a8-bfeb-0880-5200-53d85e528cb7",
+          "name": "Article",
+          "subject area": "Product (Core)",
+          "entity type": "Master Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "32912423-41f7-9220-f024-f8a6996a9229",
+          "name": "Contract",
+          "subject area": "Legal",
+          "entity type": "Master Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "3a2829cb-27f7-a4bd-40ed-0c5bac4f6f84",
+          "name": "Contract Type",
+          "subject area": "Legal",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "9553decf-078a-578c-8a77-ed880101a294",
+          "name": "Customer",
+          "subject area": "Foundations for Customer",
+          "entity type": "Master Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "122d7e12-bb02-1e0e-122c-deaad636d91e",
+          "name": "Account group",
+          "subject area": "Foundations for Customer",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "67b04485-61c1-43fb-d33d-f83922231a3e",
+          "name": "Terms of Payment",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "00073e4a-4e9a-d045-f214-872445f2e43e",
+          "name": "Reconciliation Account",
+          "subject area": "Accounting",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "81c301cf-258b-8cab-1d28-ac03b48faaf9",
+          "name": "Sales Management Organization",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "e3a1a03f-1ea2-d615-0e04-cd6ac97b0d04",
+          "name": "Portfolio Assignment",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "45956d32-abf0-1147-fee3-1fe137b1989d",
+          "name": "Sales Management Segment",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "b2d0dc25-081a-d4a9-cd7d-a937e86db2db",
+          "name": "Business Focus",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "dc6bff44-822b-c4a5-3028-c2952d8a2ba5",
+          "name": "Shipping Conditions",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "22b5bfc3-f02e-83c1-129e-f6db145b2d29",
+          "name": "Sales Group",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "200b45d4-aa47-fb58-1bd8-3516805c854f",
+          "name": "Sales Office",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "7d53b432-23cb-0292-b2f3-b0df0ea10e93",
+          "name": "Sales District",
+          "subject area": "Sales & Distribution",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "7171a3cc-c340-3086-5444-8dec4d931a28",
+          "name": "Shipping & Delivery",
+          "subject area": "Sales & Distribution",
+          "entity type": "Master Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "b4716ef3-acd5-86e7-e0d1-acf9cf3e8dd0",
+          "name": "Country",
+          "subject area": "GLBL RefData",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "df408962-f7b7-5381-e078-8bc608714ceb",
+          "name": "Sales Channel",
+          "subject area": "Customer Classification",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "0dafe559-ecf5-36f6-e065-aed7708d8174",
+          "name": "Segment Type",
+          "subject area": "Customer Classification",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "aad964a1-f8d2-cd6a-c37e-3ff505273e33",
+          "name": "Destination Door",
+          "subject area": "Customer Classification",
+          "entity type": "Reference Data",
+          "Lifecycle Status": "Productive"
+        },
+        {
+          "type": "Entity",
+          "uuid": "b10d49f9-4d27-79dd-16b3-87795906f061",
+          "name": "Customer address",
+          "subject area": "Foundations for Customer",
+          "entity type": "Master Data",
+          "Lifecycle Status": "Productive"
+        }
+      ]
+    }
+  ]
+}

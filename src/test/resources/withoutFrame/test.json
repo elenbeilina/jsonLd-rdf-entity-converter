@@ -1,0 +1,83 @@
+{
+    "domains": {
+        "uuid": "00000-000-00000",
+        "type": "Domain",
+        "models": [
+            {
+                "uuid": "00000-000-00001",
+                "name": "ERD Campain",
+                "type": "Model",
+                "descr": "Demo Model Description",
+                "domain": "00000-000-00000",
+                "entities": [
+                    {
+                        "uuid": "00000-000-00011",
+                        "name": "Age Group",
+                        "type": "Entity",
+                        "descr": "Detailed Description of Age Group",
+                        "domain": "00000-000-00000"
+                    },
+                    {
+                        "uuid": "00000-000-00021",
+                        "name": "Global Comms Launch",
+                        "type": "Entity",
+                        "descr": "What is Global Comms Launch?",
+                        "domain": "00000-000-00000",
+                        "attributes": [
+                            {
+                                "uuid": "00000-000-00211",
+                                "name": "Global Comms Launch Date",
+                                "type": "Attribute",
+                                "descr": "What is the Global Comms Launch Date?",
+                                "domain": "00000-000-00000",
+                                "fKey": ""
+                            },
+                            {
+                                "uuid": "00000-000-00212",
+                                "name": "Age Group CD",
+                                "type": "Attribute",
+                                "descr": "What is an Age Group CD?",
+                                "domain": "00000-000-00000",
+                                "fKey": "00000-000-00112"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "@context": {
+        "@base": "http://test/",
+        "col": "https://test.entity.com/",
+        "uuid": "@id",
+        "domains": "@graph",
+        "domain": {
+            "@id": "col:assets_in_domain_relation",
+            "@type": "@id"
+        },
+        "models": {
+            "@reverse": "col:assets_in_domain_relation"
+        },
+        "entities": {
+            "@reverse": "col:00000000-0000-0000-0000-000000007046"
+        },
+        "attributes": "col:00000000-0000-0000-0000-000000007047",
+        "name": {
+            "@id": "col:displayname",
+            "@type": "xsd:string"
+        },
+        "descr": {
+            "@id": "col:00000000-0000-0000-0000-000000003114",
+            "@type": "xsd:string"
+        },
+        "fKey": {
+            "@id": "col:0ad1e29c-e607-4731-8e43-65758de81306",
+            "@type": "@vocab"
+        },
+        "type": "@type",
+        "Domain": "col:2dc40841-02fe-45cc-9223-304935f75fd2",
+        "Model": "col:00000000-0000-0000-0000-000000031003",
+        "Entity": "col:00000000-0000-0000-0000-000000031004",
+        "Attribute": "col:00000000-0000-0000-0000-000000031005"
+    }
+}

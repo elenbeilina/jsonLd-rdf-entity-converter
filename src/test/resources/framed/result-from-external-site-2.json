@@ -1,0 +1,22 @@
+{
+  "@graph": [ {
+    "@id": "http://example.org#Jane",
+    "@type": "Person",
+    "name": "Jane"
+  },
+    {
+      "@id": "http://example.org#John",
+      "@type": "Person",
+      "child": {
+        "@id": "http://example.org#Jane",
+        "@type": "Person",
+        "name": "Jane"
+      },
+      "name": "John"
+    }
+  ],
+  "@context": {
+    "@vocab": "http://example.org/",
+    "child": {"@type": "@id"}
+  }
+}
